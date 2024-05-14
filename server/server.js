@@ -1,12 +1,12 @@
 const express = require('express');
 require('dotenv').config();
+const booksRoutes = require('./routes/books');
 
 const app = express();
 const PORT = process.env.PORT || 8080;
 
-app.get('/', function(req, res) {
-  res.send('welcome to bookhive');
-})
+app.use(express.json());
+app.use('/books', booksRoutes);
 
 app.listen(PORT, () => {
   console.log('book hive');
