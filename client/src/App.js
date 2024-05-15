@@ -12,8 +12,6 @@ function App() {
   const bookSiteApi = new BookSiteApi();
   const [books, setBooks] = useState([]);
 
-
-
   const displayData = async () => {
     try {
       const data = await bookSiteApi.getBooks();
@@ -25,11 +23,10 @@ function App() {
     }
   };
   useEffect(() => {
-   // console.log(books)
-   if(books.length === 0){
-    displayData();
-   }
-
+    // console.log(books)
+    if (books.length === 0) {
+      displayData();
+    }
   }, [books]);
 
   return (

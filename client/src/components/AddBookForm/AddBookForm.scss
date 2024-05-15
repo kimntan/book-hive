@@ -1,0 +1,21 @@
+.upload {
+  &__form {
+    padding: 0.5rem 1.5rem;
+  }
+  &__inputs {
+    width: 97%;
+  }
+  &__label {
+    margin-bottom: 0;
+  }
+
+  &__btn-container {
+    position: relative;
+    margin-top: 1rem;
+  }
+  &__btn-icon {
+    position: absolute;
+    left: 0.75rem;
+    top: 20%;
+  }
+}
