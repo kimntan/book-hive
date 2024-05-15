@@ -1,0 +1,62 @@
+[
+    {
+      "id": "10774617-cf48-4097-93cc-3f3c6cf708cd",
+      "title": "Finding Chika",
+      "author": "Mitch Albom",
+      "image": "https://www.mitchalbom.com/wp-content/uploads/us_chika_carousel-1-274x300.png",
+      "published": "November 5, 2019",
+      "description": "Finding Chika by Mitch Albom is a heart-wrenching memoir that tells the story of a young girl/’s journey through a rare and devastating brain tumor.",
+      "genre": ["Biography", "Autobiography"],
+      "reviews": "",
+      "isRead": true,
+      "currentRead": false
+    },
+    {
+      "id": "f99ea6c0-f46c-499d-a2e3-66a3ffdaf74d",
+      "title": "A Kingdom of Dreams",
+      "author": "Judith McNaught",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388285802i/129619.jpg",
+      "published": "March 1, 1989",
+      "description": "Abducted from her convent school, headstrong Scottish beauty Jennifer Merrick does not easily surrender to Royce Westmoreland, Duke of Claymore.",
+      "genre": ["Romance", "Historical", "Adult"],
+      "reviews": "",
+      "isRead": false,
+      "currentRead": true
+    },
+    {
+      "id": "efc7a7ea-9022-4e07-b265-98e49319d888",
+      "title": "The Seven Husbands of Evelyn Hugo",
+      "author": "Taylor Jenkins Reid",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/17/The_Seven_Husbands_of_Evelyn_Hugo.jpg/220px-The_Seven_Husbands_of_Evelyn_Hugo.jpg",
+      "published": "June 13, 2017",
+      "description": "Aging and reclusive Hollywood movie icon Evelyn Hugo, at age 79, is finally ready to tell the truth about her glamorous and scandalous life, and gives a final interview to unknown journalist, Monique Grant",
+      "genre": ["Fiction", "Historical", "Romance"],
+      "reviews": "",
+      "isRead": true,
+      "currentRead": false
+    },
+    {
+      "id": "62206a6b-3b40-4738-a41c-e22c814e9ce9",
+      "title": "Born a Crime",
+      "author": "Trevor Noah",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1473867911i/29780253.jpg",
+      "published": "November 15, 2016",
+      "description": "Born a Crime is the story of a mischievous young boy who grows into a restless young man as he struggles to find himself in a world where he was never supposed to exist.",
+      "genre": ["Autobiography", "Biography", "Nonfiction"],
+      "reviews": "",
+      "isRead": false,
+      "currentRead": true
+    },
+    {
+      "id": "5029d6b8-6cac-471c-aae7-b12b1a9bfda7",
+      "title": "Things Fall Apart",
+      "author": "Chinua Achebe",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1708114013i/37781.jpg",
+      "published": "January 1, 1958",
+      "description": "A simple story of a 'strong man' whose life is dominated by fear and anger, Things Fall Apart is written with remarkable economy and subtle irony. Uniquely and richly African, at the same time it reveals Achebe's keen awareness of the human qualities common to men of all times and places.",
+      "genre": ["Fiction", "Historical"],
+      "reviews": "",
+      "isRead": false,
+      "currentRead": true
+    }
+  ]
