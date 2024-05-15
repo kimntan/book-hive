@@ -6,10 +6,7 @@
     "image": "https://www.mitchalbom.com/wp-content/uploads/us_chika_carousel-1-274x300.png",
     "published": "November 5, 2019",
     "description": "Finding Chika by Mitch Albom is a heart-wrenching memoir that tells the story of a young girl/’s journey through a rare and devastating brain tumor.",
-    "genre": [
-      "Biography",
-      "Autobiography"
-    ],
+    "genre": ["Biography", "Autobiography"],
     "reviews": "",
     "isRead": true,
     "currentRead": false
@@ -21,11 +18,7 @@
     "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388285802i/129619.jpg",
     "published": "March 1, 1989",
     "description": "Abducted from her convent school, headstrong Scottish beauty Jennifer Merrick does not easily surrender to Royce Westmoreland, Duke of Claymore.",
-    "genre": [
-      "Romance",
-      "Historical",
-      "Adult"
-    ],
+    "genre": ["Romance", "Historical", "Adult"],
     "reviews": "",
     "isRead": false,
     "currentRead": true
@@ -37,11 +30,7 @@
     "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/17/The_Seven_Husbands_of_Evelyn_Hugo.jpg/220px-The_Seven_Husbands_of_Evelyn_Hugo.jpg",
     "published": "June 13, 2017",
     "description": "Aging and reclusive Hollywood movie icon Evelyn Hugo, at age 79, is finally ready to tell the truth about her glamorous and scandalous life, and gives a final interview to unknown journalist, Monique Grant",
-    "genre": [
-      "Fiction",
-      "Historical",
-      "Romance"
-    ],
+    "genre": ["Fiction", "Historical", "Romance"],
     "reviews": "",
     "isRead": true,
     "currentRead": false
@@ -53,11 +42,7 @@
     "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1473867911i/29780253.jpg",
     "published": "November 15, 2016",
     "description": "Born a Crime is the story of a mischievous young boy who grows into a restless young man as he struggles to find himself in a world where he was never supposed to exist.",
-    "genre": [
-      "Autobiography",
-      "Biography",
-      "Nonfiction"
-    ],
+    "genre": ["Autobiography", "Biography", "Nonfiction"],
     "reviews": "",
     "isRead": false,
     "currentRead": true
@@ -69,10 +54,7 @@
     "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1708114013i/37781.jpg",
     "published": "January 1, 1958",
     "description": "A simple story of a 'strong man' whose life is dominated by fear and anger, Things Fall Apart is written with remarkable economy and subtle irony. Uniquely and richly African, at the same time it reveals Achebe's keen awareness of the human qualities common to men of all times and places.",
-    "genre": [
-      "Fiction",
-      "Historical"
-    ],
+    "genre": ["Fiction", "Historical"],
     "reviews": "",
     "isRead": false,
     "currentRead": true
