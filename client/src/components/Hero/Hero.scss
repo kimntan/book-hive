@@ -1,0 +1,26 @@
+.hero {
+  padding: 0 1.5rem;
+  display: flex;
+  gap: 1rem;
+  &__heading {
+    font-weight: 600;
+    font-size: 0.8125rem;
+    width: 9rem;
+  }
+  &__image {
+    height: 7rem;
+    min-width: 5rem;
+    background-color: beige;
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  &__info {
+    font-size: 0.6rem;
+  }
+  &__subheading {
+    font-weight: 700;
+  }
+}
