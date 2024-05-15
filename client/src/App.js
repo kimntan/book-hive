@@ -9,22 +9,28 @@ import { BookSiteApi } from "./api/api";
 import "./App.css";
 
 function App() {
+  const bookSiteApi = new BookSiteApi();
   const [books, setBooks] = useState([]);
 
-  useEffect(() => {
-    displayData();
-  }, []);
+
 
   const displayData = async () => {
     try {
-      const bookSiteApi = new BookSiteApi();
       const data = await bookSiteApi.getBooks();
+
       setBooks(data);
+      console.log(data);
     } catch (error) {
       console.log(error);
     }
   };
+  useEffect(() => {
+   // console.log(books)
+   if(books.length === 0){
+    displayData();
+   }
 
+  }, [books]);
 
   return (
     <BrowserRouter>
