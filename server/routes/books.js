@@ -18,7 +18,6 @@ router.get("/", (_req, res) => {
       author: book.author,
     };
   });
-  //console.log(bookList);
   res.send(bookList);
 });
 
