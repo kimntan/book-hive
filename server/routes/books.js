@@ -47,6 +47,7 @@ router.get("/genre/:genre", (req, res) => {
   res.send(booksByGenre);
 });
 
+//posting a book
 router.post("/books", (req, res) => {
   const books = getData();
   const newBook = req.body;
@@ -71,7 +72,6 @@ router.post("/books", (req, res) => {
 });
 
 //Delete books
-
 router.delete("/books/:id", (req, res) => {
   const books = getData();
   const bookId = req.params.id;
