@@ -14,11 +14,11 @@ export default function FindBook() {
   
   return (
     <form id='find-book' className='find-form'>
-      <label for='genre' className='find-form__label'>Find books by genre:</label>
+      <label htmlFor='genre' className='find-form__label'>Find books by genre:</label>
       <select id='genre' name='genre' className='find-form__select'>
         <option value=''>Select genre...</option>
-        {genres.map(genre => {
-          return (<option value={genre}>{genre}</option>)
+        {genres.map((genre, index) => {
+          return (<option value={genre} key={index}>{genre}</option>)
         })}
       </select>
     </form>
