@@ -38,7 +38,6 @@ router.get("/books/:id", (req, res) => {
   res.send(book);
 });
 
-//books by genre
 router.get("/genre/:genre", (req, res) => {
   const books = getData();
   const genre = req.params.genre;
@@ -47,7 +46,6 @@ router.get("/genre/:genre", (req, res) => {
   res.send(booksByGenre);
 });
 
-//posting a book
 router.post("/books", (req, res) => {
   const books = getData();
   const newBook = req.body;
@@ -71,7 +69,6 @@ router.post("/books", (req, res) => {
   res.send(postBook);
 });
 
-//Delete books
 router.delete("/books/:id", (req, res) => {
   const books = getData();
   const bookId = req.params.id;
@@ -79,6 +76,28 @@ router.delete("/books/:id", (req, res) => {
   const booksAfterDeletion = books.filter((book) => book.id !== bookId);
   saveData(booksAfterDeletion);
   res.send(removedBook);
+});
+
+router.patch("/books/:id", (req, res) => {
+  try {
+    let books = getData();
+    const bookId = req.params.id;
+    const updatedFields = req.body;
+    const newBooks = books.map((book) => {
+      if (book.id === bookId) {
+        book = { ...book, ...updatedFields };
+      } else {
+        return book;
+      }
+      return book;
+    });
+
+    books = [...newBooks];
+    saveData(books);
+    res.send(`Updated fields:\n ${JSON.stringify(updatedFields, null, 2)}`);
+  } catch (error) {
+    return res.status(400).send("Unable to update book");
+  }
 });
 
 module.exports = router;
