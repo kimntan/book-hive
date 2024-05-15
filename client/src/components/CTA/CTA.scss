@@ -1,0 +1,21 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/fontStyles" as *;
+
+.CTA__button {
+  background-color: blue;
+  color: white;
+  height: 2.5rem;
+  min-width: 100%;
+  border: 0;
+  border-radius: 0.25rem;
+  padding: 0;
+  @include tablet {
+    min-width: 9.375rem;
+    padding: 0 2rem;
+  }
+}
+.CTA__button:hover {
+  background-color: darkblue;
+}
