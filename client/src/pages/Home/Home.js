@@ -3,13 +3,15 @@ import Header from "../../components/Header/Header";
 import Hero from "../../components/Hero/Hero";
 import Library from "../../components/Library/Library";
 
-export default function Home() {
+export default function Home({books}) {
+
+
   return (
     <>
       <Header />
-      <Hero />
+      <Hero books= {books} />
       <FindBook />
-      <Library />
+      <Library books={books} />
     </>
   );
 }

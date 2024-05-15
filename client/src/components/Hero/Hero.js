@@ -1,6 +1,14 @@
 import './Hero.scss';
 
-export default function Hero() {
+export default function Hero({books}) {
+  console.log(books)
+
+  const mainBook = books.find(book => book.currentRead === true )
+  console.log(mainBook);
+
+
+
+
   return (
     <div className='hero'>
       <h2 className='hero__heading'>Current read:</h2>

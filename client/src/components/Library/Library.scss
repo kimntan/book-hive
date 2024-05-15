@@ -4,8 +4,11 @@
   background-image: url('../../assets/images/bookshelf.png');
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 1rem 1.5rem;
+  padding: 1.5rem 2rem;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
+  gap: 3rem;
+  justify-content: center;
+
 }
